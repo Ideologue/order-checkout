@@ -1,0 +1,36 @@
+package com.almenuz.basket.checkout.exception;
+
+
+
+@SuppressWarnings("serial")
+public class OrderAmountBelow100Exception extends Exception {
+
+	public OrderAmountBelow100Exception() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public OrderAmountBelow100Exception(String message, Throwable cause, boolean enableSuppression,
+			boolean writableStackTrace) {
+		super(message, cause, enableSuppression, writableStackTrace);
+		// TODO Auto-generated constructor stub
+	}
+
+	public OrderAmountBelow100Exception(String message, Throwable cause) {
+		super(message, cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	public OrderAmountBelow100Exception(String message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+	public OrderAmountBelow100Exception(Throwable cause) {
+		super(cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+	
+}
