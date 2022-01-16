@@ -1,6 +1,6 @@
 # basket-checkout
 The basket checkout process is done using 2 rest call the first start the checkout process and the secod finish the checkout process
-The process implementation uses mysql 8 as its data store and the script for creating the database schema is provided in the email that i sent also provided in the email the data file to insert the items in the database also provide in the email a postman collection to guid you through  
+The process implementation uses mysql 8 as its data store. 
 
 
 **runing the app**
